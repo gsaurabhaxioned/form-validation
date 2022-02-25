@@ -187,8 +187,8 @@ header img {
 }
 
 .banner-content h2 {
-  font-size: 31px;
   color: #fff;
+  font-size: 31px;
 }
 
 .banner-content {
@@ -209,7 +209,83 @@ header img {
 }
 
 /* banner styling ends  */
+/* form section start  */
+.form {
+  padding: 30px 0 113px;
+  position: relative;
+}
 
+.form .wrapper ul li a {
+  color: #000;
+  font-size: 11px;
+}
+
+.form h3 {
+  margin-top: 24px;
+  color: #5B92C7;
+  font-size: 29px;
+}
+
+.form label {
+  margin: 18px auto 7px;
+  display: block;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.form input[type="text"],input[type="email"],select {
+  width: 31.7%;
+  padding: 7px 0;
+  border: 2px solid rgba(0,0,0,0.2);
+}
+
+.checkbox p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.checkbox label {
+  margin: 0;
+}
+
+.checkbox-yes,.checkbox-no {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.checkbox-yes {
+  margin-top: 26px;
+}
+
+.form .checkbox input[type = "checkbox"] {
+  width: auto;
+  padding: 0;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+}
+
+.move-up {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+input[type="submit"] {
+  width: 19.5%;
+  margin-top: 15px;
+  padding: 10px 0;
+  border: none;
+  background: #369FE3;
+  color: #fff;  font-size: 12px;
+  font-size: 12px; 
+}
+
+
+
+/* form section end  */
 
 
 
