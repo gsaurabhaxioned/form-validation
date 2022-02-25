@@ -6,26 +6,10 @@
 <head>
  
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Client</title>
-  
-  <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
-  <!-- <meta name="description" lang="en" content=""> -->
-  
-  <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
-  <!-- <meta name="keywords" lang="en" content=""> -->
-  
-  <!-- View-port Basics: http://mzl.la/VYREaP -->
-  <!-- This meta tag is used for mobile device to display the page without any zooming,
-       so how much the device is able to fit on the screen is what's shown initially. 
-       Remove comments from this tag, when you want to apply media queries to the website. -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
-  
-  <!-- To adhear no-cache for Chrome -->
-<!--   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-store, no-cache" />
-  <meta http-equiv="Expires" content="0" /> -->
-
+  <title>Form Validation</title>
+ 
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
 
@@ -47,25 +31,170 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <div class="header-top">
+        <div class="wrapper">
+          <h1>
+            <a href="#FIXME" title="Logo" target="_blank">
+              <img src="assets/pics/logo.png" alt="Logo">
+            </a>
+        </h1>
+        <div class="searchbar">
+          <input type="text" placeholder="Search..." class="search">
+          <button class="searchbutton">search</button>
+        </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="wrapper">
+          <span class="hamburger">ham</span>
+          <nav class="menus">
+            <ul>
+              <li><a href="#FIXME" title="Home" target="_blank">Home</a></li>
+              <li><a href="#FIXME" title="News" target="_blank">News</a></li>
+              <li><a href="#FIXME" title="Conferences" target="_blank">Conferences</a></li>
+              <li><a href="#FIXME" title="Training" target="_blank">Training</a></li>
+              <li><a href="#FIXME" title="Awards" target="_blank">Awards</a></li>
+              <li><a href="#FIXME" title="About Us" target="_blank">About us</a></li>
+              <li><a href="#FIXME" title="Treasury Netwok" target="_blank">Treasury netwok</a></li>
+              <li><a href="#FIXME" title="Contact Us" target="_blank">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+        <!-- banner start  -->
+        <div class="banner">
+          <figure>
+            <img src="assets/pics/1519x492.png" alt="Marketing">
+          </figure>
+          <div class="wrapper">
+          <h2>Sign up</h2>
+          <p>Get the latest news on our events,
+            exclusive offers and contents
+          </p>
+        </div>
+        </div>
+        <!-- banner ends  -->
+        <!-- form start  -->
+        <section class="form">
+          <div class="wrapper">
+          <ul>
+            <li><a href="#FIXME" title="EuroFinance" target="_blank">EuroFinance</a></li>
+            <li><a href="#FIXME" title="Newsletter Sign Up" target="_blank">Newsletter sign up</a></li>
+          </ul>
+          <h3>Enter your details to subscribe to our newsletter</h3>
+          <form action="#FIXME" onsubmit="">
+            <div class="first-name">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname">
+            </div>
+            <div class="last-name">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="position">
+              <label for="position">Position</label>
+              <input type="text" id="position" name="position">
+            </div>
+            <div class="company">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company">
+            </div>
+            <div class="company-type">
+              <label for="company">Company Type</label>
+              <select name="company_type" id="company-type">
+                <option value="none">-select-</option>
+                <option value="It">IT</option>
+                <option value="Automobile">Automobile</option>
+                <option value="Finance">Finance</option>
+              </select>
+            </div>
+            <div class="country">
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="none">-select-</option>
+                <option value="India">India</option>
+                <option value="Rasia">Rasia</option>
+                <option value="England">England</option>
+              </select>
+            </div>
+            <div class="work-email">
+              <label for="email">Work email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="checkbox">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi unde, magni voluptate provident odio,
+                 quod adipisci aspernatur distinctio error repellat quaerat fugiat, voluptatem sit?</p>
+                 <input type="checkbox" class="checkbox-yes" name="check_yes">
+                 <input type="checkbox" class="checkbox-nos" name="check_no">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis dolore doloremque aperiam. Aperiam 
+                  quasi ratione voluptatum iste est sapiente eius.
+                  <a href="#FIXME" title="www.economistgroup.com/privacy" target="_blank">www.economistgroup.com/privacy</a>
+                </p>
+                </div>
+                <div class="work-email">
+                  <input type="submit" name="submit">
+                </div>
+                <span class="move-up">move up</span>
+          </form>
+        </div>
+        </section>
+        <!-- form end  -->
     </main>
     <!--main section end-->
 
     <!--footer section start-->
     <footer>      
-
+        <div class="footer-top">
+          <div class="wrapper">
+            <figure>
+              <img src="assets/pics/192x68.png" alt="Footer Logo">
+            </figure>
+            <div class="our-eurofinance">
+              <h4>Our Eurofinance.com</h4>
+              <ul class="eurofinance-list">
+                <li><a href="#FIXME" title="Home" target="_blank">Home</a></li>
+                <li><a href="#FIXME" title="News" target="_blank">News</a></li>
+                <li><a href="#FIXME" title="Conferences" target="_blank">Conferences</a></li>
+                <li><a href="#FIXME" title="Training" target="_blank">Training</a></li>
+                <li><a href="#FIXME" title="Awards" target="_blank">Awards</a></li>
+                <li><a href="#FIXME" title="About Us" target="_blank">About us</a></li>
+                <li><a href="#FIXME" title="Treasury Netwok" target="_blank">Treasury netwok</a></li>
+                <li><a href="#FIXME" title="Contact Us" target="_blank">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="keep-updated">
+              <h4>Keep updated</h4>
+              <ul class="footer-icons">
+                <li><a href="#FIXME" title="Facebook" target="_blank">instagram</a></li>
+                <li><a href="#FIXME" title="Twitter" target="_blank">twitter</a></li>
+                <li><a href="#FIXME" title="Youtube" target="_blank">youtube</a></li>
+                <li><a href="#FIXME" title="Facebook" target="_blank">vimeo</a></li>
+              </ul>
+            </div>
+            <span class="move-up">move up</span>
+          </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="wrapper">
+              <ul class="footer-bottom-info">
+                <li><a href="#FIXME" title="Terms Of Use" target="_blank">Terms of use</a></li>
+                <li><a href="#FIXME" title="Privacy And Cookies" target="_blank">Privacy and cookies</a></li>
+                <li><a href="#FIXME" title="Accessibility" target="_blank">Accessibility</a></li>
+                <li><a href="#FIXME" title="Manage Cookie Preferences" target="_blank">Manage cookie preferences</a></li>
+              </ul>
+              <p class="copyright">Copuright &copy; 2019 EuroFinance</p>
+            </div>
+          </div>
     </footer>
     <!--footer section end-->
 
   </div>
   <!--container end-->
 
-<!-- <script src="js/vendors/jquery-1.8.3.min.js"></script>
-<script src="js/script.js"></script> -->
+<script src="assets/js/script.js"></script> 
 </body>
 </html>
