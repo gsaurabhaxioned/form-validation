@@ -101,15 +101,68 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1519px;
-  width: 86%; 
+  width: 50.6%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  padding: 32px 0;
+}
 
+.header-top .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
+.searchbar {
+  margin-right: 5px;
+  display: flex;
+}
 
+.search {
+  padding: 1px 26px 1px 12px;
+  font-size: 12px;
+}
+
+.searchbutton {
+  padding: 0 13px;
+  border: none;
+  background: #369FE3;
+  color: #fff;
+}
+
+.header-bottom {
+  padding: 7px 0;
+  margin-top: 46px;
+  background: #2A79C2;
+}
+
+.hamburger {
+  display: none;
+}
+
+.menus {
+  width: 84%;
+  margin-left: 11px;
+}
+
+.menus ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menus ul li {
+  padding-right: 12px;
+  border-right: 1px solid;
+}
+
+.menus ul li a {
+  color: #fff;
+  font-size: 13px;
+}
 
 
 
