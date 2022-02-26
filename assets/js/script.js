@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 inputs = document.querySelectorAll('input');
 
-function validate(){
+function validate(e){
     let firstname = document.querySelector('.firstname').value,
     lastname = document.querySelector('.lastname').value,
     position = document.querySelector('.position').value,
@@ -48,7 +48,7 @@ function validate(){
     positionerror = document.querySelector('.positionerror'),
     companyerror = document.queryCommandValue('.companyerror'),
     companytypeerror = document.querySelector('.companytypeerror'),
-    countryerror = document.querySelector('.countyerror'),
+    countryerror = document.querySelector('.countryerror'),
     emailerror = document.querySelector('.emailerror'),
     checkboxerror = document.querySelector('.checkboxerror');
 
@@ -60,7 +60,7 @@ function validate(){
     countryerror.innerText = "";
     emailerror.innerText = "";
     checkboxerror.innerText = "";
-
+    
         if(firstname === ""){
             firstnameerror.innerText = "please enter firstname"; 
         }else if(!firstname.match(firstname_pattern)) {
@@ -69,7 +69,7 @@ function validate(){
             lastnameerror.innerText = "please enter lastname"; 
         }else if(!lastname.match(lastname_pattern)) {
             lastnameerror.innerText = "name can include alphabates only and characters between 1 to 20";
-        } else if(position === ""){
+        }else if(position === ""){
             positionerror.innerText = "please enter position";
         }else if(!position.match(position_pattern)) {
             positionerror.innerText = "name can include alphabates only and characters between 1 to 20";
