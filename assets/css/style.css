@@ -147,8 +147,23 @@ header img {
   background: #2A79C2;
 }
 
-.hamburger {
+.hamburger,
+.cross {
   display: none;
+  text-indent: -9999px;
+}
+
+.hamburger::before,
+.cross::before {
+  content: "\f0c9";
+  float: right;
+  color: #000;
+  font-family: "fontAwesome";
+  text-indent: 0;
+}
+
+.cross::before {
+  content: "\f00d";
 }
 
 .menus {
@@ -445,6 +460,29 @@ footer {
   color: #fff;
   font-size: 11px;
   opacity: 0.8;
+}
+
+.move-up-footer {
+  position: absolute;
+  bottom: 4px;
+  right: 2%;
+  text-indent: -9999px;
+}
+
+.move-up-footer::before {
+  content: "\f077";
+  padding: 10px;
+  border-radius: 100%;
+  float: right;
+  background-color: #14254E;
+  color: #4B5C84;
+  font-family: "fontAwesome";
+  font-size: 21px;
+  text-indent: 0;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
 }
 
  /*=================================
