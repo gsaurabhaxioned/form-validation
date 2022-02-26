@@ -327,7 +327,7 @@ input[type="submit"] {
   -moz-transition: all ease-in-out 0.5s;
 }
 
-input[type="submit"] {
+input[type="button"] {
   width: 19.5%;
   margin-top: 15px;
   padding: 10px 0;
