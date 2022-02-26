@@ -140,6 +140,15 @@ header img {
   background: #369FE3;
   color: #fff;
   font-size: 12px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.searchbutton:hover {
+  background-color: #ffa500;
 }
 
 .header-bottom {
@@ -190,6 +199,15 @@ header img {
 .menus ul li a {
   color: #fff;
   font-size: 13px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.menus ul li a:hover {
+  color: #ffa500;
 }
 
 
@@ -334,10 +352,15 @@ input[type="submit"] {
   font-family: "fontAwesome";
   font-size: 21px;
   text-indent: 0;
+  transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
   -o-transition: all ease-in-out 0.5s;
   -moz-transition: all ease-in-out 0.5s;
+}
+
+.move-up:hover::before {
+  background-color: #ffa500;
 }
 
 input[type="submit"] {
@@ -348,6 +371,15 @@ input[type="submit"] {
   background: #369FE3;
   color: #fff;  font-size: 12px;
   font-size: 12px; 
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffa500;
 }
 
 /* form section end  */
@@ -400,6 +432,15 @@ footer {
   color: #fff;
   font-size: 13px;
   opacity: 0.9;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.eurofinance-list li a:hover {
+  color: #ffa500;
 }
 
 .keep-updated {
@@ -459,7 +500,7 @@ footer {
 
 .footer-bottom {
   padding: 11px 0;
-  background: #103567;
+  background: #0F2C58;
 }
 
 .footer-bottom .wrapper {
@@ -486,6 +527,15 @@ footer {
 
 .footer-bottom-info li a {
   color: #fff;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.footer-bottom-info li a:hover {
+  color: #ffa500;
 }
 .footer-bottom-info li:first-child {
   padding-left: 0;
@@ -514,10 +564,15 @@ footer {
   font-family: "fontAwesome";
   font-size: 21px;
   text-indent: 0;
+  cursor: pointer;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
   -o-transition: all ease-in-out 0.5s;
   -moz-transition: all ease-in-out 0.5s;
+}
+
+.move-up-footer:hover:before {
+  background-color: #ffa500;
 }
 
  /*=================================
