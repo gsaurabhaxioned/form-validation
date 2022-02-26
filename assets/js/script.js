@@ -28,6 +28,7 @@ function validate(e) {
         country = document.querySelector('.country'),
         email = document.querySelector('.email').value,
         checked_boxes = document.querySelectorAll('input[type="checkbox"]:checked');
+        
   
     firstnameerror.innerText = "";
     lastnameerror.innerText = "";
@@ -122,8 +123,4 @@ email.addEventListener('blur', function () {
     } else {
         emailerror.innerText = "";
     }
-})
-
-company_type.addEventListener('focus',function(){
-    alert();
 })

@@ -427,14 +427,11 @@ footer {
   font-family: "fontAwesome";
   font-size: 23px;
   text-indent: 0;
+  transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
   -o-transition: all ease-in-out 0.5s;
   -moz-transition: all ease-in-out 0.5s;
-}
-
-.footer-icons li a:hover::before {
-  color: #ffa000;
 }
 
 .footer-icons li:nth-child(2) a:before {
@@ -454,6 +451,11 @@ footer {
   padding: 4px 9px;
   color: #4464A7;
 }
+
+.footer-icons li a:hover:before {
+  color: #ffa000;
+}
+
 
 .footer-bottom {
   padding: 11px 0;
