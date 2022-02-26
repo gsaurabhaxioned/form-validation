@@ -40,7 +40,8 @@ emailerror = document.querySelector('.emailerror'),
 checkboxerror = document.querySelector('.checkboxerror');
 
 
-submit.addEventListener('click',function(){
+function validate(e){
+    e.preventDefault();
     let firstname = document.querySelector('.firstname').value,
     lastname = document.querySelector('.lastname').value,
     position = document.querySelector('.position').value,
@@ -95,7 +96,6 @@ submit.addEventListener('click',function(){
             alert("form filled successfully");
         }
     }
-)
 
 firstname.addEventListener('blur' , function(){
     let firstname = document.querySelector('.firstname').value,
