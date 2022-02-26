@@ -135,10 +135,11 @@ header img {
 }
 
 .searchbutton {
-  padding: 0 13px;
+  padding: 0px 13px 0 14px;
   border: none;
   background: #369FE3;
   color: #fff;
+  font-size: 12px;
 }
 
 .header-bottom {
@@ -223,6 +224,7 @@ header img {
 .banner-content p {
   width: 55%;
   margin-top: 14px;
+  color: #2A7AC2;
   font-size: 26px;
   line-height: 31px;
 }
@@ -241,7 +243,6 @@ header img {
 .form .wrapper ul li a {
   color: #000;
   font-size: 11px;
-  opacity: 0.7;
 }
 
 form span {
@@ -250,10 +251,12 @@ form span {
   color: #ff0000;
 }
 
+.eurofinance {
+  opacity: 0.7;
+}
+
 .newsletter {
   margin-left: 4px;
-  font-size: 11px;
-  opacity: 1;
 }
 
 .eurofinance::after {
@@ -301,6 +304,10 @@ form span {
   margin-top: 26px;
 }
 
+.checkbox-field p a {
+ color: #39A1F2;;
+}
+
 .form .checkbox input[type = "checkbox"] {
   width: auto;
   padding: 0;
@@ -333,7 +340,7 @@ input[type="submit"] {
   -moz-transition: all ease-in-out 0.5s;
 }
 
-input[type="button"] {
+input[type="submit"] {
   width: 19.5%;
   margin-top: 15px;
   padding: 10px 0;
@@ -373,6 +380,7 @@ footer {
 }
 
 .footer-top h4 {
+  margin-top: 5px;
   font-size: 15px;
   opacity: 0.8;
 }
@@ -395,12 +403,12 @@ footer {
 }
 
 .keep-updated {
-  margin-right: 9%;
-  flex-basis: 23%;
+  margin-right: 10%;
+  flex-basis: 22%;
 }
 
 .footer-icons {
-  margin-top: 14px;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -411,7 +419,7 @@ footer {
 
 .footer-icons li a::before {
   content: "\f16d";
-  padding: 6px;
+  padding: 4px 6px;
   float: right;
   border-radius: 100%;
   background-color: #fff;
@@ -436,19 +444,19 @@ footer {
 
 .footer-icons li:nth-child(3) a:before {
   content: "\f0da";
-  padding: 2px 11px;
+  padding: 0px 10px;
   color: #F62100;
   font-size: 31px;
 }
 
 .footer-icons li:nth-child(4) a:before {
   content: "\f09a";
-  padding: 6px 11px;
+  padding: 4px 9px;
   color: #4464A7;
 }
 
 .footer-bottom {
-  padding: 9px 0;
+  padding: 11px 0;
   background: #103567;
 }
 
