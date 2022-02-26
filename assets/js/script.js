@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
 });
 
-    let firstnameerror = document.querySelector('.firstnameerror'),
+let firstnameerror = document.querySelector('.firstnameerror'),
     lastnameerror = document.querySelector('.lastnameerror'),
     positionerror = document.querySelector('.positionerror'),
     companyerror = document.querySelector('.companyerror'),
@@ -16,7 +16,9 @@ $(document).ready(function () {
     name_pattern = /^[A-Za-z]{1,20}$/,
     position_pattern = /^[A-Za-z]{1,20}$/,
     company_pattern = /^[A-Za-z0-9]{1,20}$/,
-    email_pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+    email_pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/,
+    company_type = document.querySelector('.company-type'),
+    country_type = document.querySelector('.country-type');
 
 function validate(e) {
     e.preventDefault();
@@ -24,12 +26,8 @@ function validate(e) {
         lastname = document.querySelector('.lastname').value,
         position = document.querySelector('.position').value,
         company = document.querySelector('.company').value,
-        company_type = document.querySelector('.company-type'),
-        country = document.querySelector('.country'),
         email = document.querySelector('.email').value,
         checked_boxes = document.querySelectorAll('input[type="checkbox"]:checked');
-        
-  
     firstnameerror.innerText = "";
     lastnameerror.innerText = "";
     positionerror.innerText = "";
@@ -122,5 +120,21 @@ email.addEventListener('blur', function () {
         emailerror.innerText = "email is not valid";
     } else {
         emailerror.innerText = "";
+    }
+})
+
+company_type.addEventListener('blur', function () {
+    if (company_type.selectedIndex === 0) {
+        companytypeerror.innerText = "please select company";
+    } else {
+        companytypeerror.innerText = "";
+    }
+})
+
+country.addEventListener('blur', function () {
+    if (country.selectedIndex === 0) {
+        countryerror.innerText = "please select country";
+    } else {
+        countryerror.innerText = "";
     }
 })
