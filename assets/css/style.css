@@ -269,8 +269,25 @@ input[type="submit"] {
 
 .move-up {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 19.8%;
+  right: 2%;
+  text-indent: -9999px;
+}
+
+.move-up::before {
+  content: "\f077";
+  padding: 10px;
+  border-radius: 100%;
+  float: right;
+  background-color: #9F9F9F;
+  color: #fff;
+  font-family: "fontAwesome";
+  font-size: 21px;
+  text-indent: 0;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
 }
 
 input[type="submit"] {
@@ -300,11 +317,135 @@ input[type="submit"] {
   footer styling starts here
 =================================*/ 
 
+footer {
+  color: #fff;
+}
 
+.footer-top {
+  padding: 41px 0 61px;
+  position: relative;
+  background: #163A71;
+}
 
+.footer-top .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer-top figure {
+  width: 192px;
+  height: 68px;
+}
 
+.footer-top h4 {
+  font-size: 15px;
+  opacity: 0.8;
+}
 
+.our-eurofinance {
+  margin-right: 6.6%;
+}
+
+.eurofinance-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.eurofinance-list li a {
+  color: #fff;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.keep-updated {
+  margin-right: 9%;
+  flex-basis: 23%;
+}
+
+.footer-icons {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons li a {
+  text-indent: -9999px;
+}
+
+.footer-icons li a::before {
+  content: "\f16d";
+  padding: 6px;
+  float: right;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #2878B5;
+  font-family: "fontAwesome";
+  font-size: 23px;
+  text-indent: 0;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.footer-icons li a:hover::before {
+  color: #ffa000;
+}
+
+.footer-icons li:nth-child(2) a:before {
+  content: "\f099";
+  color: #39A1F2;
+}
+
+.footer-icons li:nth-child(3) a:before {
+  content: "\f0da";
+  padding: 2px 11px;
+  color: #F62100;
+  font-size: 31px;
+}
+
+.footer-icons li:nth-child(4) a:before {
+  content: "\f09a";
+  padding: 6px 11px;
+  color: #4464A7;
+}
+
+.footer-bottom {
+  padding: 9px 0;
+  background: #103567;
+}
+
+.footer-bottom .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom-info {
+  display: inline-block;
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.footer-bottom-info li {
+  padding: 0 4px 0 2px;
+  border-right: 1px solid #fff;
+}
+
+.footer-bottom-info li a {
+  color: #fff;
+}
+.footer-bottom-info li:first-child {
+  padding-left: 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 11px;
+  opacity: 0.8;
+}
 
  /*=================================
   footer styling ends here
