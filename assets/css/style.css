@@ -315,15 +315,7 @@ input[type="submit"] {
   font-size: 12px; 
 }
 
-
-
 /* form section end  */
-
-
-
-
-
-
 /*=================================
   main styling ends here
 =================================*/
@@ -442,6 +434,7 @@ footer {
   display: inline-block;
   font-size: 10px;
   opacity: 0.7;
+  white-space: nowrap;
 }
 
 .footer-bottom-info li {
@@ -493,6 +486,27 @@ footer {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+header .wrapper,.footer-top .wrapper,.footer-bottom .wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
 
+.form input[type="text"], input[type="email"], select {
+  width: 90%;
+}
+
+.keep-updated {
+  text-align: center;
+}
+
+.footer-icons {
+  column-gap: 10px;
+}
+
+header,.banner-content {
+  display: none;
+}
 
 }  
