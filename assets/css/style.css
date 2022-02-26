@@ -244,6 +244,12 @@ header img {
   opacity: 0.7;
 }
 
+form span {
+  margin-top: 10px;
+  display: block;
+  color: #ff0000;
+}
+
 .newsletter {
   margin-left: 4px;
   font-size: 11px;
