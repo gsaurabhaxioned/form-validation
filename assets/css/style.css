@@ -276,13 +276,13 @@ header img {
   border: 2px solid rgba(0,0,0,0.2);
 }
 
-.checkbox p {
+.checkbox-field p {
   margin-top: 20px;
   font-size: 12px;
   line-height: 18px;
 }
 
-.checkbox label {
+.checkbox-field label {
   margin: 0;
 }
 
