@@ -287,20 +287,30 @@ form span {
 .form h3 {
   margin-top: 24px;
   color: #5B92C7;
-  font-size: 29px;
+  font-size: 30px;
 }
 
 .form label {
-  margin: 18px auto 7px;
+  margin: 19px auto 9px;
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   cursor: pointer;
 }
 
+.first-name-field label {
+  margin-top: 16px;
+}
+
 .form input[type="text"],input[type="email"],select {
-  width: 31.7%;
+  width: 31.5%;
   padding: 7px 0;
   border: 2px solid rgba(0,0,0,0.2);
+}
+
+select {
+  padding: 6px;
+  background-color: #369FE3;
+  color: #fff;
 }
 
 .checkbox-field p {
@@ -331,13 +341,9 @@ form span {
   padding: 0;
 }
 
-input[type="submit"] {
-  margin-top: 15px;
-}
-
 .move-up {
   position: absolute;
-  top: 19.8%;
+  top: 19.9%;
   right: 2%;
   text-indent: -9999px;
 }
@@ -366,7 +372,7 @@ input[type="submit"] {
 input[type="submit"] {
   width: 19.5%;
   margin-top: 15px;
-  padding: 10px 0;
+  padding: 9px 0;
   border: none;
   background: #369FE3;
   color: #fff;  font-size: 12px;
@@ -649,6 +655,38 @@ header .wrapper,.footer-top .wrapper,.footer-bottom .wrapper {
 
   .header-bottom {
     margin-top: 6px;
+  }
+
+  .searchbutton:hover {
+    background-color: #369FE3; 
+  }
+
+  .menus ul li a:hover {
+    color: #fff;
+  }
+
+  .move-up:hover::before {
+    color: #9F9F9F;
+  }
+
+  .move-up-footer:hover:before {
+    background-color: #212C4A;
+  }
+
+  .eurofinance-list li a:hover {
+    background-color: #fff;
+  }
+
+  .footer-icons li a:hover::before {
+    color: initial;
+  }
+
+  .footer-bottom li a:hover {
+    color: #fff;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #369FE3;
   }
 
 }
